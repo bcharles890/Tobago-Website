@@ -12,12 +12,13 @@ body{
 }
 
 #navbar{
-border: solid ;
+border: soli ;
 height: 90px;
 position: fixed;
-width: 99.9%;
+width: 100%;
 top: 0%;
-background-color: whit;
+background-color: whitesmoke;
+opacity: .9;
 z-index: 9;
 
 }
@@ -60,7 +61,7 @@ font-size: 18px;
     background-color: blac;
     height: 100vh;
     top: 0%;
-    background-image: url(https://uploads-ssl.webflow.com/5f2c17afbb3392a1f1b3fd9d/628531aae994283669f4a156_Tobago%20Beaches%20-%20Pigeon%20Point%20Header.jpg);
+    background-image: url('/Images/photo\ of\ tobago\ beach.jpg');
     background-repeat: no-repeat;
     width: 100%;
     opacity: 0.9;
@@ -69,5 +70,106 @@ font-size: 18px;
 }
 
 .text{
-    margin-top: 170px;
+    margin-top: 170p;
 }
+
+.slogan{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 20%;
+    color: white;
+    opacity: .9;
+    animation-name: sloganOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+}
+
+@keyframes sloganOpacity{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: .9;
+    }
+}
+
+.welcome{
+    text-align: center;
+    background-image: linear-gradient(red, blac);
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 48px;
+    color: white;
+    opacity: 1;
+    animation-name: welcomeOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 4.5s;
+    
+}
+
+@keyframes welcomeOpacity{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+#aboutpage{
+    height: 100vh;
+    margin-top: 100vh;
+    background-color: whitesmoke;
+}
+
+.sidebyside{
+    display: flex;
+    justify-content: space-evenly;
+        margin-top: 30%;
+
+}
+#about{}
+#aboutheader{
+    margin-top: 30%;
+    font-weight: 700;
+    font-size: 25px;
+
+}
+
+#propnamecolorchange{
+    color: blueviolet;
+}
+#aboutpar1{
+    font-size: 18px;
+}
+#aboutpar2{
+    
+    font-size: 18px;
+
+}
+.about-pic{
+    width: 700px;
+    margin-top: 25%;
+    height: 550px;
+
+}
+
+#about-button{
+
+    width: 250px;
+    height: 45px;
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    color: white;
+    margin-top: 25px;
+    border: solid blueviolet 1px;
+
+
+}
+
