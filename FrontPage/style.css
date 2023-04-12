@@ -3,7 +3,7 @@
 body {
   margin: 0;
   padding: 0;
-  height: 450vh;
+  height: 240vh;
   scroll-behavior: smooth;
 }
 
@@ -158,15 +158,15 @@ li {
 #photo-gallery{
 
     height: 100vh;
-    background-color: yellow;
-    margin-top: 0%;
+    background-color: grey;
+    border: solid transparent;
 
     
 }
 
 #gallery-text{
 
-    padding-top: 10%;
+    padding-top: 7%;
     font-weight: 700;
     font-size: 48px;
     text-align: center;
@@ -188,6 +188,8 @@ li {
     position: absolute;
     inset: 0;
     opacity: 0;
+    transition: 200ms opacity ease-in-out;
+    transition-delay: 200ms;
 }
 
 .slide > img{
@@ -198,10 +200,13 @@ li {
     object-position: center;
     margin-left: auto;
     margin-right: auto;
+    border: solid black 3px;
+    border-radius: 5px;
 }
 
 .slide[data-active] {
     opacity: 1;
+    transition-delay: 0;
 }
 
 .carosel-button{
@@ -239,11 +244,50 @@ li {
   margin-left: 1130px;
 }
 
+#footer-contact-info{
+
+  height: 40vh;
+  background-color: black;
+  color: white;
+}
 
 
+.bottom-border{
+  display: flex;
+  list-style-type: none;
+  font-weight: 500;
+  
+}
+
+#ammenities{
+
+  margin-left: auto;
+  
+}
+
+#social-media{
+  margin-right: 40px;
+}
 
 
+#ammenities > ul >li{
+  font-weight: 400;
+  padding: 10px;
+}
+
+#social-media > ul >li{
+  font-weight: 400;
+  padding: 10px;
+}
 
 
+.contact>li{
+  font-weight: 400;
+  padding: 10px;
+}
 
-
+.footer-slogan{
+  font-weight: 300;
+  font-size: 16px;
+  margin-left: 8px;
+}
