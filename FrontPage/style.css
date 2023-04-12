@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+border: solid red;
+height: 80px;
+}
+
+#nav-shape{
+    display: flex;
+}
+
+#nav-items{
+    display: flex;
+    
+}
+
+li{
+list-style-type: none;
+
+}
