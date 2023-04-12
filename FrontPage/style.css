@@ -1,23 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body{
     margin: 0;
     padding: 0;
+    height: 450vh;
+}
+
+*{
+    font-family: Roboto;
+
 }
 
 #navbar{
-border: solid red;
-height: 80px;
+border: solid ;
+height: 90px;
+position: fixed;
+width: 99.9%;
+top: 0%;
+background-color: whit;
+z-index: 9;
+
 }
+
+#logo{
+    margin-left: 50px;
+}
+
+
 
 #nav-shape{
     display: flex;
+    justify-content: space-between;
+
 }
 
 #nav-items{
     display: flex;
-    
-}
+
+    }
 
 li{
 list-style-type: none;
+padding: 15px;
+font-family: Roboto;
+font-weight: 800;
+font-size: 18px;
 
+}
+
+
+#reserve{
+    margin-right: 50px;
+}
+
+
+
+
+#homepage{
+    background-color: blac;
+    height: 100vh;
+    top: 0%;
+    background-image: url(https://uploads-ssl.webflow.com/5f2c17afbb3392a1f1b3fd9d/628531aae994283669f4a156_Tobago%20Beaches%20-%20Pigeon%20Point%20Header.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    opacity: 0.9;
+    background-size: 100%;
+    position: absolute;
+}
+
+.text{
+    margin-top: 170px;
 }
