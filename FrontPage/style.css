@@ -290,14 +290,27 @@ li {
   
 }
 
+#bottom-logo{
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+.footer-slogan{
+  font-weight: 300;
+  font-size: 16px;
+  margin-left: 8px;
+}
+
 #ammenities{
 
   margin-left: auto;
+  margin-top: 3%;
   
 }
 
 #social-media{
   margin-right: 40px;
+  margin-top: 3%;
 }
 
 
@@ -317,11 +330,7 @@ li {
   padding: 10px;
 }
 
-.footer-slogan{
-  font-weight: 300;
-  font-size: 16px;
-  margin-left: 8px;
-}
+
 
 
 .copyright{

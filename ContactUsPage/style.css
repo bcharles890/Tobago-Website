@@ -7,7 +7,7 @@ html{
 body {
   margin: 0;
   padding: 0;
-  height: 240vh;
+  height: 145vh;
 }
 
 * {
@@ -76,7 +76,7 @@ li {
     text-decoration: none;
     color: black;
   }
-  
+
   #homepage {
     background-color: blac;
     height: 100vh;
@@ -112,5 +112,131 @@ li {
     100% {
       opacity: 0.9;
     }
+  }
+  
+  #feedback-form{
+    margin-top: 100vh;
+    height: 105vh;
+    background-color: whitesmoke;
+  }
+
+  
+
+  #contact-form{
+
+    text-align: center;
+    padding-top: 20px;
+
+
+
+  }
+
+ #contact-text{
+    margin-top: 150px;
+    font-size: 30px;
+ }
+
+  .input-box{
+
+    height: 30px;
+    width: 600px;
+    padding: 5px;
+    margin: 10px;
+    font-size: 18px;
+    border: solid blueviolet 1px;
+  }
+
+  #name{}
+
+  #email{
+    padding-top: px;
+  }
+
+  textarea{
+    font-size: 18px;
+    border: solid blueviolet 1px;
+  }
+
+  #message{
+
+  }
+
+  #submit{
+    width: 500px;
+    color: white;
+    background-color: blueviolet;
+    border: solid blueviolet 1px;
+    height: 45px;
+    margin-top: 15px;
+    padding: 5px;
+  }
+
+  .bottom-form{
+    margin-top: 3%;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+  }
+
+  #footer-contact-info{
+
+    height: 40vh;
+    background-color: black;
+    color: white;
+  }
+  
+  
+  .bottom-border{
+    display: flex;
+    list-style-type: none;
+    font-weight: 500;
+    
+  }
+
+  #bottom-logo{
+    margin-top: 10%;
+    margin-left: 10%;
+  }
+
+  .footer-slogan{
+    font-weight: 300;
+    font-size: 16px;
+    margin-left: 10%;
+  }
+  
+  #ammenities{
+  
+    margin-left: auto;
+    margin-top: 3%;
+    
+  }
+  
+  #social-media{
+    margin-right: 40px;
+    margin-top: 3%;
+  }
+  
+  
+  #ammenities > ul >li{
+    font-weight: 400;
+    padding: 10px;
+  }
+  
+  #social-media > ul >li{
+    font-weight: 400;
+    padding: 10px;
+  }
+  
+  
+  .contact>li{
+    font-weight: 400;
+    padding: 10px;
+  }
+  
+  
+  
+  
+  .copyright{
+    text-align: center;
   }
   
