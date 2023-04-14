@@ -23,6 +23,8 @@ body {
   background-color: white;
   opacity: 0.8;
   z-index: 9;
+  top: -90px;   /* new change */
+  transition: top 0.3s;   /* new change */
 }
 
 #logo {
@@ -45,6 +47,11 @@ li {
   font-weight: 800;
   font-size: 18px;
   cursor: pointer;
+}
+
+li a:hover{    /* new change */
+  background-color: rgba(105, 105, 105, .3);   
+  padding: 10px;
 }
 
 .homepage{
