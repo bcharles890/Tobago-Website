@@ -24,6 +24,8 @@ window.onscroll = function() {scrollFunction()}; // this code is for the navbar 
 function scrollFunction() {
     if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){  //if the document is scrolled then the navbar appears 
         document.getElementById("navbar").style.top = "0"; //if the navbar is at the top of the page then it is hidden
+    } else{
+        document.getElementById("navbar").style.top = "-90";  //need an else statement for navbar
     }
 }
 
