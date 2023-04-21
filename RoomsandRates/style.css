@@ -24,6 +24,19 @@ body {
   z-index: 9;
   /* top: -90px;    new change */
   transition: top 0.3s; /* new change */
+  animation-name: navbarOpacity;
+  animation-timing-function: ease-in-out;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes navbarOpacity{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 0.8;
+  }
 }
 
 #logo {
@@ -48,7 +61,7 @@ body {
   cursor: pointer;
 }
 
-#nav-items> li a:hover {
+#nav-items > li a:hover {
   /* new change */
   background-color: rgba(105, 105, 105, 0.3);
   padding: 10px;
@@ -127,7 +140,7 @@ body {
   border-radius: 15px;
   font-weight: 500;
   width: 300px;
-  padding: 5px;
+  padding: 15px;
   margin-left: auto;
   margin-right: auto;
   font-size: 36px;
@@ -139,11 +152,12 @@ body {
   animation-duration: 4.5s;
   text-align: center;
   margin: auto;
+  text-decoration: none;
 }
 
 .learn-more:hover {
   opacity: 1;
-  border: solid grey 2px;
+  transition-duration: .1.5s;
 }
 
 @keyframes welcomeOpacity {
@@ -161,213 +175,185 @@ body {
   margin-top: 100vh;
 }
 
+.rooms-rates{
+  
+  border: soli;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 500;
+  padding-top: 120px;
+  color: blueviolet;
+  text-decoration: underline;
+}
+
+
 #img-container {
   display: flex;
-  border: solid;
+  border: soli;
   justify-content: space-evenly;
   height: 100%;
-  margin-top: 100px;
-  
-
 }
+
 
 #column1 {
   flex-direction: column;
-  margin-top: 120px;
-
 }
 
 #column2 {
   flex-direction: column;
-  margin-top: 120px;
 }
 
 #column1 > div {
-
-    height: 250px;
-    width: 450px;
-    border: soli;
-    margin-top: 20px;
-    
+  height: 250px;
+  width: 450px;
+  border: soli;
+  margin-top: 20px;
 }
 
 #column2 > div {
-
-    height: 250px;
-    width: 450px;
-    border: soli;
-    margin-top: 20px;
-
-    
+  height: 250px;
+  width: 450px;
+  border: soli;
+  margin-top: 20px;
 }
 
-
-
-.image1{
-    background-image: url(/Images/galleryimage1.jfif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    border: solid;
+.image1 {
+  background-image: url(/Images/galleryimage1.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: solid;
 }
 
-.image2{
-    background-image: url(/Images/galleryimage2.jfif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    border: solid;
-
+.image2 {
+  background-image: url(/Images/galleryimage2.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: solid;
 }
 
-.image3{
-    background-image: url(/Images/galleryimage3.jfif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    border: solid;
-
+.image3 {
+  background-image: url(/Images/galleryimage3.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: solid;
 }
 
-.image4{
-    background-image: url(/Images/galleryimage3.jfif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    border: solid;
-
+.image4 {
+  background-image: url(/Images/galleryimage3.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: solid;
 }
 
-.image5{
-    background-image: url(/Images/galleryimage1.jfif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    border: solid;
-
+.image5 {
+  background-image: url(/Images/galleryimage1.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: solid;
 }
 
-.image6{
-    background-image: url(/Images/galleryimage2.jfif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    border: solid;
-
+.image6 {
+  background-image: url(/Images/galleryimage2.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: solid;
 }
 
-.room-info{
-
+.room-info {
 }
 
-.room-name{
-
-    text-align: center;
-    font-weight: 500;
-    margin-top: 0%;
+.room-name {
+  text-align: center;
+  font-weight: 500;
+  margin-top: 0%;
 }
 
-.room-specs{
-
-    text-align: left;
-    font-size: 18px;
-    font-weight: 400;
-    
+.room-specs {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 400;
 }
 
-.room-specs > li{
-    padding: 5px;
+.room-specs > li {
+  padding: 5px;
 }
 
-.prices{
-
-    margin-top: 35px;
-    display: flex;
-    justify-content: space-evenly;
+.prices {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.room-pricepernight{
-
-    font-weight: 700;
-    font-size: 32px;
-    color: blueviolet;
+.room-pricepernight {
+  font-weight: 700;
+  font-size: 32px;
+  color: blueviolet;
 }
 
-
-.booknow-button{
-    color: white;
-    background-color: blueviolet;
-    border: solid blueviolet 1px;
-    border-radius: 5px;
-    width: 100px;
-    opacity: .7;
+.booknow-button {
+  color: white;
+  background-color: blueviolet;
+  border: solid blueviolet 1px;
+  border-radius: 5px;
+  width: 100px;
+  opacity: 0.7;
 }
 
-.booknow-button:hover{
-    opacity: 1;
+.booknow-button:hover {
+  opacity: 1;
 }
 
+#footer-contact-info {
+  height: 40vh;
+  background-color: black;
+  color: white;
+}
 
+.bottom-border {
+  display: flex;
+  list-style-type: none;
+  font-weight: 500;
+}
 
+#bottom-logo {
+  margin-top: 10%;
+  margin-left: 10%;
+}
 
-#footer-contact-info{
+.footer-slogan {
+  font-weight: 300;
+  font-size: 16px;
+  margin-left: 8px;
+}
 
-    height: 40vh;
-    background-color: black;
-    color: white;
-  }
-  
-  
-  .bottom-border{
-    display: flex;
-    list-style-type: none;
-    font-weight: 500;
-    
-  }
-  
-  #bottom-logo{
-    margin-top: 10%;
-    margin-left: 10%;
-  }
-  
-  .footer-slogan{
-    font-weight: 300;
-    font-size: 16px;
-    margin-left: 8px;
-  }
-  
-  #ammenities{
-  
-    margin-left: auto;
-    margin-top: 3%;
-    
-  }
-  
-  #social-media{
-    margin-right: 40px;
-    margin-top: 3%;
-  }
-  
-  
-  #ammenities > ul >li{
-    font-weight: 400;
-    padding: 10px;
-    list-style-type: none;
-  }
-  
-  #social-media > ul >li{
-    font-weight: 400;
-    padding: 10px;
-    list-style-type: none;
+#ammenities {
+  margin-left: auto;
+  margin-top: 3%;
+}
 
-  }
-  
-  
-  .contact>li{
-    font-weight: 400;
-    padding: 10px;
-    list-style-type: none;
+#social-media {
+  margin-right: 40px;
+  margin-top: 3%;
+}
 
-  }
-  
-  
-  
-  
-  .copyright{
-    text-align: center;
-  }
-  
+#ammenities > ul > li {
+  font-weight: 400;
+  padding: 10px;
+  list-style-type: none;
+}
+
+#social-media > ul > li {
+  font-weight: 400;
+  padding: 10px;
+  list-style-type: none;
+}
+
+.contact > li {
+  font-weight: 400;
+  padding: 10px;
+  list-style-type: none;
+}
+
+.copyright {
+  text-align: center;
+}
