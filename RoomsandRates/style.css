@@ -30,11 +30,11 @@ body {
   animation-iteration-count: 1;
 }
 
-@keyframes navbarOpacity{
-  0%{
+@keyframes navbarOpacity {
+  0% {
     opacity: 0;
   }
-  100%{
+  100% {
     opacity: 0.8;
   }
 }
@@ -157,7 +157,7 @@ body {
 
 .learn-more:hover {
   opacity: 1;
-  transition-duration: .1.5s;
+  transition-duration: 0.1.5s;
 }
 
 @keyframes welcomeOpacity {
@@ -175,8 +175,7 @@ body {
   margin-top: 100vh;
 }
 
-.rooms-rates{
-  
+.rooms-rates {
   border: soli;
   text-align: center;
   font-size: 60px;
@@ -186,14 +185,12 @@ body {
   text-decoration: underline;
 }
 
-
 #img-container {
   display: flex;
   border: soli;
   justify-content: space-evenly;
   height: 100%;
 }
-
 
 #column1 {
   flex-direction: column;
