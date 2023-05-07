@@ -6,7 +6,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  height: 280vh;
+  height: 40vh;
 }
 
 * {
@@ -98,13 +98,25 @@ body {
 }
 
 #about-us-homepage{
-  height: 100vh;
+  height: 180vh;
   top: 0%;
-  background-image: url(/Images/photo\ of\ tobago\ beach.jpg);
+  background-color: whitesmoke;
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
   width: 100%;
+  background-image: url(/Images/photo\ of\ tobago\ beach.jpg);
+}
+
+#about-us-border{
+  border: solid blueviolet 10px;
+  margin-top: 8%;
+  height: 150vh;
+  width: 75vw;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  background-color: whitesmoke;
 }
 
 #home-header {
@@ -114,8 +126,8 @@ body {
 .header {
   text-align: center;
   font-size: 60px;
-  margin-top: 21%;
-  color: white;
+  margin-top: 4%;
+  color: blueviolet;
   opacity: 0.9;
   animation-name: headerOpacity;
   animation-iteration-count: 1;
@@ -132,9 +144,90 @@ body {
   }
 }
 
-#about-us-section{
-margin-top: 100%;
-background-color: whitesmoke;
-height: 100vh;
+.container{
 
+  display: flex;
+}
+.images{
+ 
+}
+
+.img{
+  height: 450px;
+  width: 650px;
+  display: block;
+  margin: 20px;
+  border: solid 4px;
+  border-radius: 15px;
+}
+
+.text{
+  width: 450px;
+}
+
+#aboutpar1 {
+  font-size: 18px;
+}
+#aboutpar2 {
+  font-size: 18px;
+}
+
+
+
+
+
+#footer-contact-info {
+  height: 40vh;
+  background-color: black;
+  color: white;
+  margin-top: 180vh;
+}
+
+.bottom-border {
+  display: flex;
+  list-style-type: none;
+  font-weight: 500;
+}
+
+#bottom-logo {
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+.footer-slogan {
+  font-weight: 300;
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+#ammenities {
+  margin-left: auto;
+  margin-top: 3%;
+}
+
+#social-media {
+  margin-right: 40px;
+  margin-top: 3%;
+}
+
+#ammenities > ul > li {
+  font-weight: 400;
+  padding: 10px;
+  list-style-type: none;
+}
+
+#social-media > ul > li {
+  font-weight: 400;
+  padding: 10px;
+  list-style-type: none;
+}
+
+.contact > li {
+  font-weight: 400;
+  padding: 10px;
+  list-style-type: none;
+}
+
+.copyright {
+  text-align: center;
 }
