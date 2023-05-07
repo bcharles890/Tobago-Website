@@ -15,7 +15,8 @@ body {
 }
 
 #navbar {
-  border: soli;
+  border-bottom: solid blueviolet 3px;
+  border-radius: 5px;
   height: 90px;
   position: fixed;
   width: 100%;
@@ -52,6 +53,8 @@ li {
 li a:hover{    /* new change */
   background-color: rgba(105, 105, 105, .3);   
   padding: 10px;
+  border-radius: 5px;
+
 }
 
 .homepage{
