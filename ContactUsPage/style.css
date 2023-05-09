@@ -68,6 +68,9 @@ li {
 li a:hover{    /* new change */
   background-color: rgba(105, 105, 105, .3);   
   padding: 10px;
+  border-radius: 5px;
+  transition: 0.5s;
+
 }
 
 .homepage{
