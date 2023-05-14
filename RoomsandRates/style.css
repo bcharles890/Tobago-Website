@@ -141,9 +141,9 @@ body {
   background-image: linear-gradient(red, blac);
   background-color: blueviolet;
   border: solid blueviolet 1px;
-  border-radius: 15px;
+  border-radius: 10px;
   font-weight: 500;
-  width: 300px;
+  width: 350px;
   padding: 15px;
   margin-left: auto;
   margin-right: auto;
@@ -161,7 +161,8 @@ body {
 
 .learn-more:hover {
   opacity: 1;
-  transition-duration: 0.1.5s;
+  /*transition-duration: 0.1.5s;*/
+  transition: 0.5s;
 }
 
 @keyframes welcomeOpacity {
@@ -259,9 +260,9 @@ body {
   background-repeat: no-repeat;
   border: solid;
 }
-
+/*
 .room-info {
-}
+} */
 
 .room-name {
   text-align: center;
