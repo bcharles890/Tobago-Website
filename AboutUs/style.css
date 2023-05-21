@@ -31,11 +31,11 @@ body {
   animation-iteration-count: 1;
 }
 
-@keyframes navbarOpacity{
-  0%{
+@keyframes navbarOpacity {
+  0% {
     opacity: 0;
   }
-  100%{
+  100% {
     opacity: 0.8;
   }
 }
@@ -68,7 +68,6 @@ body {
   padding: 10px;
   border-radius: 5px;
   transition: 0.5s;
-
 }
 
 .homepage {
@@ -101,7 +100,7 @@ body {
   color: black;
 }
 
-#about-us-homepage{
+#about-us-homepage {
   height: 180vh;
   top: 0%;
   background-color: whitesmoke;
@@ -112,7 +111,7 @@ body {
   background-image: url(/Images/photo\ of\ tobago\ beach.jpg);
 }
 
-#about-us-border{
+#about-us-border {
   border: solid blueviolet 10px;
   margin-top: 8%;
   height: 150vh;
@@ -148,15 +147,13 @@ body {
   }
 }
 
-.container{
-
+.container {
   display: flex;
 }
-.images{
- 
+.images {
 }
 
-.img{
+.img {
   height: 450px;
   width: 650px;
   display: block;
@@ -165,7 +162,7 @@ body {
   border-radius: 15px;
 }
 
-.text{
+.text {
   width: 450px;
 }
 
@@ -175,10 +172,6 @@ body {
 #aboutpar2 {
   font-size: 18px;
 }
-
-
-
-
 
 #footer-contact-info {
   height: 40vh;
