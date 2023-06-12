@@ -92,7 +92,7 @@ li a:hover{    /* new change */
 
 #homepage {
   background-color: blac;
-  height: 100vh;
+  height:75vh;
   top: 0%;
   background-image: url("/Images/homepage-photo.jpg");
   background-repeat: no-repeat;
@@ -109,7 +109,7 @@ li a:hover{    /* new change */
 .slogan {
   text-align: center;
   font-size: 60px;
-  margin-top: 20%;
+  margin-top: 16%;
   color: white;
   opacity: 0.9;
   animation-name: sloganOpacity;
@@ -153,7 +153,7 @@ li a:hover{    /* new change */
 
 #aboutpage {
   height: 100vh;
-  margin-top: 100vh;
+  margin-top: 70vh;
   background-color: whitesmoke;
   
 }

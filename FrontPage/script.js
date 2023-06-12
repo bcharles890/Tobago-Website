@@ -29,4 +29,9 @@ function scrollFunction() {
     }
 }
 
+function changeTitleColor(){
+    document.getElementById('homepage').style.color = 'red';
+}
+
+let color = innerHTML.style.color = "red";
 
