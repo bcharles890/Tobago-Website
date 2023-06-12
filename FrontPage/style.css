@@ -15,17 +15,18 @@ body {
 }
 
 #navbar {
-  border-bottom: solid blueviolet 3px;
+  border-bottom: solid whitesmoke 3px; /* all the colors have been changed from blueviolet to the colors seen in #navbar*/
   border-radius: 5px;
   height: 90px;
   position: fixed;
   width: 100%;
   top: 0%;
-  background-color: white;
-  opacity: 0.8;
+  background-color: rgb(93, 25, 156);
+  opacity: 1;
   z-index: 9;
   top: -90px;   /* new change */
   transition: top 0.3s;   /* new change */
+  
 }
 
 #logo {
@@ -62,7 +63,7 @@ li a:hover{    /* new change */
 
 .homepage{
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .about-us{
@@ -153,7 +154,7 @@ li a:hover{    /* new change */
 
 #aboutpage {
   height: 100vh;
-  margin-top: 70vh;
+  margin-top: 65vh;
   background-color: whitesmoke;
   
 }
@@ -184,6 +185,8 @@ li a:hover{    /* new change */
   width: 700px;
   margin-top: 25%;
   height: 550px;
+  border: solid black 3px;
+  border-radius: 8px;
 }
 
 #about-button {
@@ -250,8 +253,8 @@ li a:hover{    /* new change */
 
 .slide > img{
     display: block;
-    width: 600px;
-    height: 350px;
+    width: 700px;
+    height: 400px;
     object-fit:cover;
     object-position: center;
     margin-left: auto;
@@ -283,7 +286,9 @@ li a:hover{    /* new change */
 .carosel-button:hover,
 .carosel-button:focus {
   color: white;
-  background-color: rgba(0, 0, 0, .2);
+  background-color: rgba(0, 0, 0, .5);
+  transition-duration: 2s;
+  transition-timing-function: ease-out;   /* the transition properties were recently added along with the size of the previous carosel button and the size of the carosel*/
 }
 
 
@@ -292,12 +297,13 @@ li a:hover{    /* new change */
 }
 
 .carosel-button.prev{
-  margin-left: 430px;
+  margin-left: 360px;
+  height: 150px;
 }
 
 
 .carosel-button.next{
-  margin-left: 1130px;
+  margin-left: 1200px;
 }
 
 #footer-contact-info{
