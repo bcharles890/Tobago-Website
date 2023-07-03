@@ -1,15 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-
 * {
   font-family: Roboto;
-  
+
   box-sizing: border-box;
 }
 
-@media only screen and (min-width: 961px) {
-
-
+@media only screen and (min-width: 1065px) {
   #navbar {
     border-bottom: solid rgba(138, 43, 226, 0.8) 3px; /* all the colors have been changed from blueviolet to the colors seen in #navbar*/
     border-bottom-right-radius: 5px;
@@ -18,29 +15,27 @@
     position: fixed;
     width: 100%;
     top: 0%;
-    background-color: rgba(138, 43, 226, .9);
+    background-color: rgba(138, 43, 226, 0.9);
     opacity: 1;
     z-index: 9;
-    top: -90px;   /* new change */
-    transition: top 0.3s;   /* new change */
-    
-    
+    top: -90px; /* new change */
+    transition: top 0.3s; /* new change */
   }
-  
+
   #logo {
     margin-left: 2%;
     margin-top: 2%;
   }
-  
+
   #nav-shape {
     display: flex;
     justify-content: space-between;
   }
-  
+
   #nav-items {
     display: flex;
   }
-  
+
   li {
     list-style-type: none;
     padding: 15px;
@@ -49,49 +44,43 @@
     font-size: 110%;
     cursor: pointer;
   }
-  
-  li a:hover{    /* new change */
-    background-color: rgba(105, 105, 105, .3);   
+
+  li a:hover {
+    /* new change */
+    background-color: rgba(105, 105, 105, 0.3);
     padding: 10px;
     border-radius: 5px;
     transition: 0.3s;
-    
   }
-  
-  
-  
-  .homepage{
+
+  .homepage {
     text-decoration: none;
     color: white;
   }
-  
-  .about-us{
-    text-decoration: none;
-    color: black;
-  }
-  
-  
-  
-  .area-attractions{
-    text-decoration: none;
-    color: black;
-  }
-  .contacts{
+
+  .about-us {
     text-decoration: none;
     color: black;
   }
 
-  .rooms{
+  .area-attractions {
     text-decoration: none;
     color: black;
-    margin-right: 50px;
   }
-  
-  
-  
+  .contacts {
+    text-decoration: none;
+    color: black;
+  }
+
+  .rooms {
+    text-decoration: none;
+    color: black;
+    margin-right: 40px;
+  }
+
   #homepage {
     background-color: blac;
-    height:75vh;
+    height: 75vh;
     top: 0%;
     background-image: url("/Images/homepage-photo.jpg");
     background-repeat: no-repeat;
@@ -100,11 +89,11 @@
     background-size: 100%;
     position: absolute;
   }
-  
+
   .text {
     margin-top: 170p;
   }
-  
+
   .slogan {
     text-align: center;
     font-size: 60px;
@@ -116,7 +105,7 @@
     animation-timing-function: ease-in-out;
     animation-duration: 1s;
   }
-  
+
   @keyframes sloganOpacity {
     0% {
       opacity: 0;
@@ -125,7 +114,7 @@
       opacity: 0.9;
     }
   }
-  
+
   .welcome {
     text-align: center;
     background-image: linear-gradient(red, blac);
@@ -140,7 +129,7 @@
     animation-timing-function: ease-in;
     animation-duration: 4.5s;
   }
-  
+
   @keyframes welcomeOpacity {
     0% {
       opacity: 0;
@@ -149,47 +138,61 @@
       opacity: 1;
     }
   }
-  
+
   #aboutpage {
     height: 100vh;
     margin-top: 65vh;
     background-color: whitesmoke;
-    
   }
-  
+
   .sidebyside {
     display: flex;
-    justify-content: space-evenly;
+    justify-items: flex-end;
     margin-top: 30%;
   }
-  #about {
+  .about {
+    margin-left: 3%;
   }
+
   #aboutheader {
-    margin-top: 30%;
+    margin-top: 35%;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 2.1vw;
   }
-  
+
   #propnamecolorchange {
     color: blueviolet;
   }
   #aboutpar1 {
-    font-size: 18px;
+    
+
+    font-weight: 400;
+    line-height: 140%;
+    border: solid;
+    width: 145%;
+    height: 25%;
+    text-align: left;
   }
   #aboutpar2 {
     font-size: 18px;
+    width: 135%;
+    height: 25%;
+    line-height: 140%;
+    border: solid;
+    padding: 0;
   }
   .about-pic {
-    width: 700px;
-    margin-top: 25%;
-    height: 550px;
+    width: 75%;
+    margin-top: 13%;
+    margin-left: 20%;
+    height: 80%;
     border: solid black 3px;
     border-radius: 8px;
   }
-  
+
   #about-button {
-    width: 250px;
-    height: 45px;
+    width: 60%;
+    height: 7%;
     font-size: 15px;
     border-radius: 20px;
     background-color: blueviolet;
@@ -197,76 +200,70 @@
     margin-top: 25px;
     border: solid blueviolet 1px;
     cursor: pointer;
-    transition: .3s;
-    opacity: .5;
+    transition: 0.3s;
+    opacity: 0.5;
   }
-  
-  #about-button:hover{
+
+  #about-button:hover {
     opacity: 1;
-  
   }
-  
-  #about-button a{
+
+  #about-button a {
     color: white;
     text-decoration: none;
   }
-  
-  
-  #photo-gallery{
-  
-      height: 100vh;
-      background-color: grey;
-      border: solid transparent;
-  
-      
+
+  #photo-gallery {
+    height: 100vh;
+    background-color: grey;
+    border: solid transparent;
   }
-  
-  #gallery-text{
-  
-      padding-top: 4%;
-      font-weight: 700;
-      font-size: 60px;
-      text-align: center;
+
+  #gallery-text {
+    padding-top: 3%;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
   }
-  
-  .carosel{
-      width: 100vw;
-      height: 100vh;
-      position: relative;
+
+  .carosel {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
   }
-  
-  .carosel > ul{
+
+  .carosel > ul {
     margin: 0;
     padding: 0;
     list-style: none;
   }
-  
-  .slide{
-      position: absolute;
-      inset: 0;
-      opacity: 0;
-      transition: 200ms opacity ease-in-out;
-      transition-delay: 200ms;
+
+  .slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: 200ms opacity ease-in-out;
+    transition-delay: 200ms;
   }
-  
-  .slide > img{
-      display: block;
-      width: 700px;
-      height: 400px;
-      object-fit:cover;
-      object-position: center;
-      margin-left: auto;
-      margin-right: auto;
-      border: solid black 3px;
-      border-radius: 5px;
+
+  .slide > img {
+    display: block;
+    width: 40%;
+    height: 60%;
+    object-fit: cover;
+    object-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid black 3px;
+    border-radius: 5px;
   }
-  
+
   .slide[data-active] {
-      opacity: 1;
-      transition-delay: 0;
+    opacity: 1;
+    transition-delay: 0;
   }
-  
-  .carosel-button{
+
+  .carosel-button {
     position: absolute;
     background: none;
     border: none;
@@ -274,107 +271,92 @@
     top: 21%;
     transform: translate(-22%);
     z-index: 2;
-    color: rgba(255, 255, 255, .5);
+    color: rgba(255, 255, 255, 0.5);
     cursor: pointer;
-    border-radius: .25rem;
+    border-radius: 0.25rem;
     padding: 0.5rem;
-    background-color: rgba(0, 0, 0, .1);
+    background-color: rgba(0, 0, 0, 0.1);
   }
-  
+
   .carosel-button:hover,
   .carosel-button:focus {
     color: white;
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, 0.5);
     transition-duration: 2s;
-       /* the transition properties were recently added along with the size of the previous carosel button and the size of the carosel*/
-    
+    /* the transition properties were recently added along with the size of the previous carosel button and the size of the carosel*/
+
     transition-timing-function: linear 2s;
   }
-  
-  
-  .carosel-button:focus{
+
+  .carosel-button:focus {
     outline: solid black 1px;
   }
-  
-  .carosel-button.prev{
-    margin-left: 21%;
+
+  .carosel-button.prev {
+    margin-left: 20%;
     height: 130px;
     width: 100px;
   }
-  
-  
-  .carosel-button.next{
+
+  .carosel-button.next {
     margin-left: 75%;
     height: 130px;
     width: 100px;
-    
   }
-  
-  #footer-contact-info{
-  
+
+  #footer-contact-info {
     height: 40vh;
     background-color: black;
     color: white;
   }
-  
-  
-  .bottom-border{
+
+  .bottom-border {
     display: flex;
     list-style-type: none;
     font-weight: 500;
-    
   }
-  
-  #bottom-logo{
+
+  #bottom-logo {
     margin-top: 10%;
     margin-left: 10%;
   }
-  
-  .footer-slogan{
+
+  .footer-slogan {
     font-weight: 300;
     font-size: 16px;
     margin-left: 8px;
   }
-  
-  #ammenities{
-  
+
+  #ammenities {
     margin-left: auto;
     margin-top: 3%;
-    
   }
-  
-  #social-media{
+
+  #social-media {
     margin-right: 40px;
     margin-top: 3%;
   }
-  
-  
-  #ammenities > ul >li{
+
+  #ammenities > ul > li {
     font-weight: 400;
     padding: 10px;
   }
-  
-  #social-media > ul >li{
+
+  #social-media > ul > li {
     font-weight: 400;
     padding: 10px;
   }
-  
-  
-  .contact>li{
+
+  .contact > li {
     font-weight: 400;
     padding: 10px;
   }
-  
-  
-  
-  
-  .copyright{
+
+  .copyright {
     text-align: center;
   }
-  
-  
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 body {
@@ -382,6 +364,3 @@ body {
   padding: 0;
   height: 240vh;
 }
-
-
-
