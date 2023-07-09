@@ -6,7 +6,25 @@
   box-sizing: border-box;
 }
 
-@media only screen and (min-width: 1065px) {
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 240vh;
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px)  {
+
+
+
+  
+  
+}
+
+
+@media only screen and (min-width: 961px) {
   #navbar {
     border-bottom: solid rgba(138, 43, 226, 0.8) 3px; /* all the colors have been changed from blueviolet to the colors seen in #navbar*/
     border-bottom-right-radius: 5px;
@@ -55,7 +73,7 @@
 
   .homepage {
     text-decoration: none;
-    color: white;
+    color: white;  /* make the active slide white with the active selector in html*/
   }
 
   .about-us {
@@ -155,7 +173,7 @@
   }
 
   #aboutheader {
-    margin-top: 35%;
+    margin-top: 110px;
     font-weight: 700;
     font-size: 2.1vw;
   }
@@ -169,7 +187,7 @@
     font-weight: 400;
     line-height: 140%;
     border: solid;
-    width: 145%;
+   width: 145%;
     height: 25%;
     text-align: left;
   }
@@ -355,12 +373,4 @@
   .copyright {
     text-align: center;
   }
-}
-html {
-  scroll-behavior: smooth;
-}
-body {
-  margin: 0;
-  padding: 0;
-  height: 240vh;
 }
