@@ -15,14 +15,15 @@ body {
 }
 
 #navbar {
-  border-bottom: solid blueviolet 3px;
+  border-bottom-left-radius: solid blueviolet 5px;
+  border-bottom-right-radius: solid blueviolet 5px;
   border-radius: 5px;
   height: 90px;
   position: fixed;
   width: 100%;
   top: 0%;
-  background-color: white;
-  opacity: 0.8;
+  background-color: blueviolet;
+  opacity: 0.9;
   z-index: 9;
   animation-name: navbarOpacity;
   animation-duration: 5s;   /* Added animation to have navbar for contact us page to fade in instead of apear while scrolling have not committed to main repository yet*/
@@ -94,7 +95,7 @@ li a:hover{    /* new change */
   }
   .contacts{
     text-decoration: none;
-    color: black;
+    color: white;
   }
   
   #reserve {

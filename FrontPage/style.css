@@ -15,14 +15,22 @@ body {
   height: 240vh;
 }
 
-@media only screen and (min-width: 401px) and (max-width: 960px)  {
-
-
-
-  
-  
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  #navbar {
+    border-bottom: solid rgba(138, 43, 226, 0.8) 3px; /* all the colors have been changed from blueviolet to the colors seen in #navbar*/
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 90px;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    background-color: rgba(138, 43, 226, 0.9);
+    opacity: 1;
+    z-index: 9;
+    top: -90px; /* new change */
+    transition: top 0.3s; /* new change */
+  }
 }
-
 
 @media only screen and (min-width: 961px) {
   #navbar {
@@ -73,7 +81,7 @@ body {
 
   .homepage {
     text-decoration: none;
-    color: white;  /* make the active slide white with the active selector in html*/
+    color: white; /* make the active slide white with the active selector in html*/
   }
 
   .about-us {
@@ -91,6 +99,12 @@ body {
   }
 
   .rooms {
+    text-decoration: none;
+    color: black;
+    
+  }
+
+  .reserve{
     text-decoration: none;
     color: black;
     margin-right: 40px;
@@ -136,7 +150,7 @@ body {
   .welcome {
     text-align: center;
     background-image: linear-gradient(red, blac);
-    width: 380px;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
     font-size: 48px;
@@ -146,6 +160,7 @@ body {
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
     animation-duration: 4.5s;
+    
   }
 
   @keyframes welcomeOpacity {
@@ -182,12 +197,9 @@ body {
     color: blueviolet;
   }
   #aboutpar1 {
-    
-
     font-weight: 400;
     line-height: 140%;
-    border: solid;
-   width: 145%;
+    width: 145%;
     height: 25%;
     text-align: left;
   }
@@ -196,7 +208,6 @@ body {
     width: 135%;
     height: 25%;
     line-height: 140%;
-    border: solid;
     padding: 0;
   }
   .about-pic {
