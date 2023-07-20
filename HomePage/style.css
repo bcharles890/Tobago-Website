@@ -253,12 +253,15 @@ body {
     font-weight: 700;
     font-size: 60px;
     text-align: center;
+    
+    margin-bottom: 1%;
   }
 
   .carosel {
     width: 100vw;
     height: 100vh;
     position: relative;
+    
   }
 
   .carosel > ul {
@@ -311,7 +314,7 @@ body {
   .carosel-button:focus {
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
-    transition-duration: 2s;
+    transition-duration: .5s;
     /* the transition properties were recently added along with the size of the previous carosel button and the size of the carosel*/
 
     transition-timing-function: linear 2s;
@@ -331,6 +334,47 @@ body {
     margin-left: 75%;
     height: 130px;
     width: 100px;
+  }
+
+  .room-button{
+    margin-top: 31.5%;
+    text-align: center;
+    margin-left: 40vw;
+    width: 20%;
+    height: 6%;
+    border-radius: 15px;
+    border: none;
+    background-color: blueviolet;
+    opacity: 0.5;
+    animation-name: buttonTransition;
+    animation-timing-function: ease-in ;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    
+  }
+
+  .room-button:hover{
+    
+    transition: .3s;
+    opacity: 1;
+  }
+
+  .room-button>a{
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+  }
+
+  @keyframes buttonTransition {
+    0%{
+      opacity: 0.5;
+    }
+    100%{
+      opacity: 1;
+    }
+    
   }
 
   #footer-contact-info {
