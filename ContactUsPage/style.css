@@ -26,7 +26,7 @@ body {
   opacity: 0.9;
   z-index: 9;
   animation-name: navbarOpacity;
-  animation-duration: 5s;   /* Added animation to have navbar for contact us page to fade in instead of apear while scrolling have not committed to main repository yet*/
+  animation-duration: 1.5s;   /* Added animation to have navbar for contact us page to fade in instead of apear while scrolling have not committed to main repository yet*/
   animation-timing-function: ease-in-out;
   animation-iteration-count: 1;
  
