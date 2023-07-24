@@ -345,17 +345,14 @@ body {
     border-radius: 15px;
     border: none;
     background-color: blueviolet;
+    cursor: pointer;
+    transition: 0.3s;
     opacity: 0.5;
-    animation-name: buttonTransition;
-    animation-timing-function: ease-in ;
-    animation-duration: 1.5s;
-    animation-iteration-count: 1;
     
   }
 
   .room-button:hover{
     
-    transition: .3s;
     opacity: 1;
   }
 
@@ -367,15 +364,7 @@ body {
     color: white;
   }
 
-  @keyframes buttonTransition {
-    0%{
-      opacity: 0.5;
-    }
-    100%{
-      opacity: 1;
-    }
-    
-  }
+  
 
   #footer-contact-info {
     height: 40vh;
