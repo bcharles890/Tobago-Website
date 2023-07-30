@@ -191,6 +191,46 @@ body {
   text-decoration: underline;
 }
 
+.c-item{
+  height: 250px;
+  width: 450px;
+  margin: 15px;
+  margin-left: 18px;
+
+
+
+  
+}
+
+.c-inner-item{
+  
+}
+
+.c-img{
+  height: 100%;
+  object-fit: contain;
+  border: solid 5px;
+  border-radius: 5px;
+
+}
+
+.prev{
+color: blue;
+  
+}
+
+.next{
+
+
+}
+
+
+#img-container-1 {
+  display: flex;
+  border: solid;
+  justify-content: space-evenly;
+  height: 20%;
+}
 
 
 

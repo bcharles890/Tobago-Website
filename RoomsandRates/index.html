@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diamondview Villas Tobago</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -43,25 +44,71 @@
         <h1 class="rooms-rates">Rooms & Rates</h1>
 
 
-         <div class="container mt 4">
+        <div id="img-container-1">
 
-            <h1 class="text-secondary">carosel</h1>
-            <p>Lorem ipsum</p>
-            <div class="splide bg__secondary">
-                <div class="splide__slider">
-                    <div class="splide__track">
-                        <ul class="class__list">
-                            <li class="splide__slide"><img src="/Images/caroni_bird_sanctuary.jpg" alt=""></li>
-                            <li class="splide__slide"><img src="/Images/buccoo_reef_photo.jpg" alt=""></li>
-                            <li class="splide__slide"><img src="/Images/humgallery.jpg" alt=""></li>
-                        </ul>
-                    </div>
-                </div>
+           
+
+
+        <div id="carousel1" class="carousel carousel-dark slide carousel-fade c-item">
+            
+            <div class="carousel-inner c-inner-item">
+              <div class="carousel-item active">
+                <img src="/Images/galleryimage1.jfif" class="d-block w-100 c-img" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/Images/galleryimage2.jfif" class="d-block w-100 c-img" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/Images/galleryimage3.jfif" class="d-block w-100 c-img" alt="...">
+              </div>
             </div>
+            <button class="carousel-control-prev prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+
+
+
+
+
+          <div id="carousel2" class="carousel slide carousel-fade c-item">
+            <div class="carousel-inner c-inner-item">
+              <div class="carousel-item active">
+                <img src="/Images/galleryimage1.jfif" class="d-block w-100 c-img" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/Images/galleryimage2.jfif" class="d-block w-100 c-img" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/Images/galleryimage3.jfif" class="d-block w-100 c-img" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+            
+
+
+
+        
         </div>
-
-
-        <img src="" alt="">
+          </section>
+        
 
 
 
@@ -223,6 +270,7 @@
       </section>
 </section>
 <script src="script.js"></script> 
-<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>   
+
+
 </body>
 </html>

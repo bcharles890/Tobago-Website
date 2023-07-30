@@ -1,1 +1,4 @@
-const splide = new Splide('.splide').mount();
+import Splide from '@splidejs/splide';
+
+
+new Splide( '.splide' ).mount();
