@@ -177,7 +177,7 @@ body {
 
 #rooms-rates {
   background-color: whitesmoke;
-  height: 240vh;
+  height: 290vh;
   margin-top: 100vh;
 }
 
@@ -202,9 +202,6 @@ body {
   
 }
 
-.c-inner-item{
-  
-}
 
 .c-img{
   height: 100%;
@@ -221,15 +218,81 @@ color: blue;
 
 .next{
 
-
+border: m;
 }
 
 
 #img-container-1 {
   display: flex;
-  border: solid;
+  border: soli;
   justify-content: space-evenly;
   height: 20%;
+  margin-top: 4%;
+}
+
+
+#img-container-2 {
+  display: flex;
+  border: soli;
+  justify-content: space-evenly;
+  height: 20%;
+  margin-top: 11%;
+}
+
+
+#img-container-3 {
+  display: flex;
+  border: soli;
+  justify-content: space-evenly;
+  height: 20%;
+  margin-top: 14%;
+}
+
+.carousel-dark{
+  background-color: grey;
+}
+
+
+.room-name {
+  text-align: center;
+  font-weight: 500;
+  margin-top: 5%;
+  width: 450px;
+}
+
+.room-specs {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.room-specs > li {
+  padding: 5px;
+}
+
+.prices {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.room-pricepernight {
+  font-weight: 700;
+  font-size: 32px;
+  color: blueviolet;
+}
+
+.booknow-button {
+  color: white;
+  background-color: blueviolet;
+  border: solid blueviolet 1px;
+  border-radius: 5px;
+  width: 100px;
+  opacity: 0.7;
+}
+
+.booknow-button:hover {
+  opacity: 1;
 }
 
 
