@@ -25,6 +25,8 @@ body {
 }
 
 @media only screen and (min-width: 401px) and (max-width: 960px) {
+ 
+
   #navbar {
     border-bottom: solid rgba(138, 43, 226, 0.8) 3px; /* all the colors have been changed from blueviolet to the colors seen in #navbar*/
     border-bottom-right-radius: 5px;
@@ -108,13 +110,15 @@ body {
     top: 0%;
     background-image: url("/Images/homepage-photo.jpg");
     background-repeat: no-repeat;
-    width: 370%;
+    width: 100%;
     opacity: 0.9;
     background-size: 100%;
     position: absolute;
-    object-fit: cover;
   }
 
+  .text {
+    margin-top: 170p;
+  }
 
   .slogan {
     text-align: center;
@@ -161,7 +165,6 @@ body {
       opacity: 1;
     }
   }
-
 
   #aboutpage {
     height: 100vh;
@@ -250,8 +253,8 @@ body {
 
   .carosel {
     width: 100vw;
-    height: 100vh;
-    position: absolute;
+    height: 65vh;
+    position: relative;
     
   }
 
@@ -271,12 +274,13 @@ body {
 
   .slide > img {
     display: block;
-    width: 40%;
-    height: 60%;
+    width: 55%;
+    height: 90%;
     object-fit: cover;
     object-position: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
     border: solid black 3px;
     border-radius: 5px;
   }
@@ -291,7 +295,7 @@ body {
     background: none;
     border: none;
     font-size: 4rem;
-    top: 21%;
+    top: 33%;
     transform: translate(-22%);
     z-index: 2;
     color: rgba(255, 255, 255, 0.5);
@@ -316,22 +320,21 @@ body {
   }
 
   .carosel-button.prev {
-    margin-left: 20%;
+    margin-left: 14%;
     height: 130px;
     width: 100px;
   }
 
   .carosel-button.next {
-    margin-left: 75%;
+    margin-left: 81%;
     height: 130px;
     width: 100px;
   }
 
   .room-button{
-    margin-top: 101.5%;
     text-align: center;
-    margin-left: 40vw;
-    width: 20%;
+    margin-left: 35vw;
+    width: 26%;
     height: 6%;
     border-radius: 15px;
     border: none;
@@ -339,6 +342,7 @@ body {
     cursor: pointer;
     transition: 0.3s;
     opacity: 0.5;
+    
     
   }
 
