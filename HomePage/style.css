@@ -76,32 +76,45 @@ body {
   .homepage {
     text-decoration: none;
     color: white; /* make the active slide white with the active selector in html*/
+    display: none;
   }
 
   .about-us {
     text-decoration: none;
     color: black;
+    display: none;
   }
 
   .area-attractions {
     text-decoration: none;
     color: black;
+    display: none;
   }
   .contacts {
     text-decoration: none;
     color: black;
+    display: none;
   }
 
   .rooms {
     text-decoration: none;
     color: black;
+    display: none;
     
   }
 
   .reserve{
     text-decoration: none;
     color: black;
+    display: none;
+  }
+
+  .menu-icon{
+  
     margin-right: 40px;
+    font-size: 25px;
+    margin-top: 0;
+
   }
 
   #homepage {
@@ -450,7 +463,7 @@ body {
     padding: 15px;
     font-family: Roboto;
     font-weight: 800;
-    font-size: 110%;
+    font-size: 1.5vw;
     cursor: pointer;
   }
 
@@ -491,6 +504,10 @@ body {
     text-decoration: none;
     color: black;
     margin-right: 40px;
+  }
+
+  .menu-icon{
+    display: none;
   }
 
   #homepage {
