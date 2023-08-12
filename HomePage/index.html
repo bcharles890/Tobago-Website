@@ -10,7 +10,7 @@
   <body>
     <section id="frontpage">
       <section id="navbar">
-        <div id="nav-shape">
+        <nav id="nav-shape">
           <h1 id="logo">Logo will go here</h1>
           <ul id="nav-items">
             <li><a href="/HomePage/index.html" class="homepage">Home</a></li>
@@ -19,10 +19,30 @@
                 <li><a href="/AreaAttractions/index.html" class="area-attractions">Area Attractions</a></li>
                 <li><a href="/ContactUsPage/index.html" class="contacts">Contact Us</a></li>
                 <li><a href="" class="reserve">Reserve Now</a></li>
-                <li><span class="menu-icon">&#9776;</span></li>
+                <li id="menu-icon"><a><span class="menu-icon" >&#9776;</span></a></li>
+
+                
             
           </ul>
-        </div>
+          
+
+
+          
+        </nav>
+        <ul id="dropdown-menu">
+          <hr>
+          <li><a href="/HomePage/index.html" class="dropdown">Home</a></li>
+          <hr>
+          <li><a href="/AboutUs/index.html" class="dropdown">About Us</a></li>
+          <hr>
+          <li><a href="/RoomsandRates/index.html" class="dropdown">Rooms</a></li>
+          <hr>
+          <li><a href="/AreaAttractions/index.html" class="dropdown">Area Attractions</a></li>
+          <hr>
+          <li><a href="/ContactUsPage/index.html" class="dropdown">Contact Us</a></li>
+          <hr>
+          <li><a href="" class="dropdown">Reserve Now</a></li>
+        </ul>
       </section>
 
 
@@ -61,7 +81,7 @@
                         <br>
                         <button id="about-button" ><a href="/AboutUs/index.html">Read More</a></button>
         </div>
-        <div>
+        <div id="about-img">
             <img src="/Images/TobagoPigeonPointBeach.jpg" alt="" class="about-pic">
         </div>
         </div>

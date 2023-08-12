@@ -40,3 +40,21 @@ function changeTitleColor(){
 
 
 
+function dropDownMenu(){
+
+    let menuIcon = document.querySelector('#menu-icon');
+    let dropdownMenu = document.querySelector('dropdown-menu');
+    
+
+    dropdownMenu = menuIcon.addEventListener('click', e => {
+
+        dropdownMenu.style.visibility = 'visible';
+        
+
+
+        
+    })
+}
+
+
+
