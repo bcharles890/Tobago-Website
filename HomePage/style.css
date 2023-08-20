@@ -25,7 +25,13 @@ body {
 }
 
 @media only screen and (min-width: 401px) and (max-width: 960px) {
+
+  #frontpage{
+    height: 1200vh;
+  }
  
+
+  
 
   #navbar {
     border-bottom: solid rgba(138, 43, 226, 0.8) 3px; /* all the colors have been changed from blueviolet to the colors seen in #navbar*/
@@ -41,6 +47,7 @@ body {
     top: -90px; /* new change */
     transition: top 0.3s; /* new change */
     margin-bottom: 0%;
+    
   }
 
   #logo {
@@ -148,11 +155,11 @@ body {
 
   #homepage {
     background-color: blac;
-    height: 75vh;
+    height: 100vh;
     top: 0%;
     background-image: url("/Images/homepage-photo.jpg");
     background-repeat: no-repeat;
-    width: 100%;
+    width: 160%;
     opacity: 0.9;
     background-size: 100%;
     position: absolute;
@@ -160,6 +167,7 @@ body {
 
   .text {
     margin-top: 170p;
+    
   }
 
   .slogan {
@@ -189,7 +197,7 @@ body {
     width: 500px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 48px;
+    font-size: 8vw;
     color: white;
     opacity: 1;
     animation-name: welcomeOpacity;
@@ -209,22 +217,23 @@ body {
   }
 
   #aboutpage {
-    height: 100vh;
-    margin-top: 65vh;
+    
+    z-index: 1;
+    padding-top: 0vh;
+    margin-top: 100vh;
     background-color: whitesmoke;
+    border: solid;
   }
 
   .sidebyside {
     display: flex;
     justify-items: flex-end;
-    margin-top: 30%;
   }
   .about {
     margin-left: 3%;
   }
 
   #aboutheader {
-    margin-top: 110px;
     font-weight: 700;
     font-size: 2.1vw;
   }

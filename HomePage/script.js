@@ -40,21 +40,30 @@ function changeTitleColor(){
 
 
 
-function dropDownMenu(){
+/*function dropDownMenu(){
 
     let menuIcon = document.querySelector('#menu-icon');
-    let dropdownMenu = document.querySelector('dropdown-menu');
+    let dropdownMenu = document.querySelector('#dropdown-menu');
+
+
+    if(dropdownMenu == document.style.visibility == 'none'){
+
+        dropdownMenu.addEventListener('click', e => {
+            dropdownMenu.style.visibility == 'visible'
+
+        });
+    }
     
 
-    dropdownMenu = menuIcon.addEventListener('click', e => {
+    
+} */
 
-        dropdownMenu.style.visibility = 'visible';
-        
+const hiddenMenu = document.getElementById(dropdown-menu);
+const menuIcon = document.getElementsByClassName('menu-icon')
 
-
-        
-    })
-}
+menuIcon.addEventListener('onclick', e => {
+    hiddenMenu.style.visibility = 'none';
+});
 
 
 
